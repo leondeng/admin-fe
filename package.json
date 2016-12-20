@@ -1,0 +1,38 @@
+{
+  "name": "admin-fe",
+  "version": "1.0.0",
+  "description": "sample project to integrate typescript react and webpack",
+  "main": "index.html",
+  "dependencies": {
+    "@types/react": "^0.14.55",
+    "@types/react-dom": "^0.14.19",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.0.0-beta.17",
+    "source-map-loader": "^0.1.5",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leondeng/admin-fe.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Leo Deng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leondeng/admin-fe/issues"
+  },
+  "homepage": "https://github.com/leondeng/admin-fe#readme"
+}
