@@ -19,7 +19,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "test": "npm run test"
+    "test": "npm run test",
+    "server": "webpack-dev-server --hot --inline"
   },
   "repository": {
     "type": "git",

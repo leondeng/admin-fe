@@ -1,8 +1,15 @@
 module.exports = {
     entry: "./src/index.tsx",
+    devServer: {
+        hot: true,
+        inline: true,
+        port: 7700,
+        historyApiFallback: true,
+    },
     output: {
         filename: "bundle.js",
-        path: __dirname + "/dist"
+        path: __dirname + "/dist",
+        publicPath: 'http://localhost:7700/dist',
     },
 
     // Enable sourcemaps for debugging webpack's output.
